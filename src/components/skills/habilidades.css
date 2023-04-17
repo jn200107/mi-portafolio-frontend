@@ -1,0 +1,164 @@
+.cuerpo{
+    background-color: #1e2326;
+    width: 100%;
+    height: 100vh;
+}
+
+.Link{
+    text-decoration: none;
+}
+
+
+.contenedor-header {
+    background: #1e2326;
+    width: 100%;
+    top:0;
+    z-index: 99;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.psp {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+
+}
+.psp span{
+    padding-bottom: 10px;
+    color: #FF0080;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 0 8px 0 8px;
+    
+}
+
+
+.cab {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+}
+.lin {
+    color: #fff;
+    margin: 0 0.3rem;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 10px;
+}
+
+
+
+.lin::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 0;
+    margin: auto;
+    height: 2px;
+    background: #FF0080;
+    transition: all .7s ease;
+}
+
+.lin:hover::after {
+    width: 80%;
+}
+
+
+/* habilidades */
+
+.skills {
+    background: #1e2326;
+    color: #fff;
+    width: 100%;
+    margin: auto;
+}
+
+.picture{
+    margin-right:5px;
+    color: #ff008080;
+}
+.container_skills {
+    display: flex;
+    width: 100%;
+    /* margin: auto; */
+    justify-items: center;
+    justify-content: center;
+}
+ .titulo-t {
+    font-size: 2rem;
+    font-weight: bold;
+    width: max-content;
+    position: relative;
+    padding-bottom: 10px;
+    margin-left: 3%;
+}
+.titulo-t::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 3px;
+    background: #fff;
+}
+.tecnologias {
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    flex-wrap: wrap;
+    gap:11px;
+    width: 787px;
+    justify-content: center;
+    width: 800px;
+}
+.tecnologia {
+    padding: 7px 20px;
+    background: #252A2E;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;   
+}
+.titulo {
+    color: rgba(255, 255, 255, .3);
+}
+
+
+.skills .tecnologias .tecnologia:hover {    
+    box-shadow: 0px 0px 10px 0px rgba(255,0,128,0.9);
+    animation: horizontal-shaking .2s linear;
+}
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+}
+.tecnologia:hover .titulo{
+    color: #fff;
+    transition: all 0.5s ease;
+}
