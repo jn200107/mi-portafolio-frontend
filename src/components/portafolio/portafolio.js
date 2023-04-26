@@ -8,7 +8,7 @@ const tarjetas = [
     {titulo:'CRUD de pokemones',descripcion:'tabla para visualizar,añadir,actualizar y eliminar datos de una base de datos de mysql' },
 ];
 const tarjeta2=[
-    {titulo1:'Marketplace',descripcion2:'pagina con logueo,ruta protegida, CRUD para adminstar proveedores y clientes carrito de compras y productos' }
+    {titulo1:'Marketplace',descripcion2:'pagina con logueo,ruta protegida, CRUD para adminstar proveedores y clientes, con carrito de compras y productos' }
 ];
 
 
