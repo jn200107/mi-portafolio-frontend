@@ -22,6 +22,7 @@ const App=()=> {
       setisAllowed(false)
     }
   }
+  
 
   return (
     <BrowserRouter>
