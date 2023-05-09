@@ -177,9 +177,9 @@ a{
     align-items: center;
 }
 .perfil{
-    
+    margin-left: 200px;
     width: 300px;
-    height: 300px;
+    height: 400px;
     border-radius: 50%;
 }
 

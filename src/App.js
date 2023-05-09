@@ -10,9 +10,6 @@ import {ProtectedRoute} from './components/ruta-protegida/ruta'
 import { useState } from 'react';
 
 const App=()=> {
-
-
-
   const [isAllowed,setisAllowed]=useState()
 
   //si tengo dudas revisar clase 54

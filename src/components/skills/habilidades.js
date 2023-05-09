@@ -61,12 +61,12 @@ const Skills=()=>{
                             <li className="list"><a href="#portafolio" className="lin">PORTAFOLIO</a></li>
                         </Link>
                         
-                        <Link className='Link' to={'/Contacto'}>
+                        {/* <Link className='Link' to={'/Contacto'}>
                             <li className="list"><a href="#contacto" className="lin" >CONTACTO</a></li>
-                        </Link>
-                        <Link className='Link' to={'/solicitudes'} >
+                        </Link> */}
+                        {/* <Link className='Link' to={'/solicitudes'} >
                             <li className="list"><a href="#contacto" className="lin" >SOLICITUDES</a></li>
-                        </Link>
+                        </Link> */}
                         </ul>
                     </div>
                 </nav>

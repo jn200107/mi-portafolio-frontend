@@ -7,7 +7,7 @@ import interes from './img/thumb-up.svg'
 import whatsapp from './icons/WhatsApp.svg.png'
 import linkedin from './icons/linkedin.png'
 import github from './icons/github-logo.png'
-import hombre from './img/hombre.jpeg'
+import hombre from './img/hombre2.png'
 
 
 const words = ['Front-end', 'Back-end'];
@@ -72,12 +72,12 @@ const SobreMi=()=>{
                             <li className="list"><a href="#portafolio" className="lin">PORTAFOLIO</a></li>
                           </Link>
                           
-                          <Link className='Link' to={'/Contacto'}>
+                          {/* <Link className='Link' to={'/Contacto'}>
                             <li className="list"><a href="#contacto" className="lin" >CONTACTO</a></li>
-                          </Link>
-                          <Link className='Link' to={'/solicitudes'} >
+                          </Link> */}
+                          {/* <Link className='Link' to={'/solicitudes'} >
                             <li className="list"><a href="#contacto" className="lin" >SOLICITUDES</a></li>
-                          </Link>
+                          </Link> */}
                         </ul>
                     </div>
                 </nav>
