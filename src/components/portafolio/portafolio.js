@@ -82,6 +82,8 @@ const Portafolio=()=>{
                 </div>
             </div>  
 
+            
+
             <div className='cont-portafolio'>
             {tarjetas.map((row)=>
                 <div class="card">
